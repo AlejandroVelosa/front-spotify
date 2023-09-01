@@ -29,10 +29,10 @@ function App() {
 
   return (
     <HashRouter>
-      <Educational />
+      {/* <Educational /> */}
       <NavBar />
       <Notification />
-      { isLoading && <LoadingScreen /> }
+      {isLoading && <LoadingScreen />}
       <Container className="my-5">
         <Routes>
           <Route path="/" element={<Home />} />
